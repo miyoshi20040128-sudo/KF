@@ -1,0 +1,13 @@
+[data_path]
+data_path = "data/kalman_filter_dummy_state_space.csv"
+
+[initial_value]
+x_0= [1,1]
+P_00 = [[1,1],[1,1]]
+A = [[1,1],[0,1]]
+H = [[1,0]]
+Q = [[0.64,0],[0,0.0064]]
+R = [[9]]
+
+[train_sumple]
+proportion = 0.75
